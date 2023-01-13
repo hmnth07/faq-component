@@ -26,9 +26,15 @@ function FAQ({ questions }) {
 					<div className="faq" key={index}>
 						<div className="question">
 							{open[index] ? (
-								<ArrowDropDownIcon onClick={() => changeOpenState(index)} />
+								<ArrowDropDownIcon
+									sx={{ fontSize: "32px", cursor: "pointer" }}
+									onClick={() => changeOpenState(index)}
+								/>
 							) : (
-								<ArrowRightIcon onClick={() => changeOpenState(index)} />
+								<ArrowRightIcon
+									sx={{ fontSize: "32px", cursor: "pointer" }}
+									onClick={() => changeOpenState(index)}
+								/>
 							)}
 							<p>{item?.question}</p>
 						</div>

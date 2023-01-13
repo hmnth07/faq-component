@@ -1,6 +1,6 @@
 .App {
 	margin: 50px auto;
-	max-width: 70%;
+	max-width: 60%;
 	border: 1px solid lightgray;
 	padding: 32px;
 }
@@ -19,5 +19,5 @@
 }
 .answer {
 	color: gray;
-	margin: 0px 0px 0px 24px;
+	margin: 0px 0px 0px 32px;
 }
